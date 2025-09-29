@@ -18,7 +18,7 @@ Fokus utama dari tugas ini adalah mempelajari penerapan CSS Internal, CSS Inline
 
 ## Struktur File
 
-- `https://github.com/fitrirmdhni22/Lab2Web/blob/main/lab2_tag_dasar.html` → File utama berisi contoh penggunaan HTML & CSS dasar.
+- `lab2_tag_dasar.htm` → File utama berisi contoh penggunaan HTML & CSS dasar.
 
 ---
 
