@@ -18,7 +18,7 @@ Fokus utama dari tugas ini adalah mempelajari penerapan CSS Internal, CSS Inline
 
 ## Struktur File
 
-- `pertemuan 3.html` → File utama berisi contoh penggunaan HTML & CSS dasar.
+- `https://github.com/fitrirmdhni22/Lab2Web/blob/main/lab2_tag_dasar.html` → File utama berisi contoh penggunaan HTML & CSS dasar.
 
 ---
 
@@ -36,12 +36,9 @@ Fokus utama dari tugas ini adalah mempelajari penerapan CSS Internal, CSS Inline
 Disimulasikan dengan menambahkan block <style> kedua, meskipun pada praktik sebenarnya diletakkan dalam file .css terpisah.
 
 5. **Selector CSS**
-
-ID Selector → #intro
-
-Class Selector → .button, .btn-primary
-
-Tag Selector → h1, nav, p
+   ID Selector → #intro
+   Class Selector → .button, .btn-primary
+   Tag Selector → h1, nav, p
 
 # Input kodingan
 ```python
