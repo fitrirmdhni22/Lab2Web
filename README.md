@@ -6,19 +6,19 @@
 |  _Mata Kuliah_ | Pemrograman Web 1 |
 
 **Hasil Output Program**
+<img width="1366" height="768" alt="pemweb1" src="https://github.com/user-attachments/assets/818d050f-6fa9-45e8-96fc-d86d46b52493" />
 
-<img width="1366" height="768" alt="ss an pemweb pert2" src="https://github.com/user-attachments/assets/2d7c2999-fb3a-4c4a-ad13-d16acd81d62f" />
+<img width="1366" height="768" alt="pemweb2" src="https://github.com/user-attachments/assets/0dfe14b5-55a1-41af-92c7-d5e37cbc6cae" />
+
+<img width="1366" height="768" alt="pemweb4" src="https://github.com/user-attachments/assets/9ad3c8e9-5f1e-4f84-a8f0-aff85079045e" />
+
+<img width="1366" height="768" alt="pemweb5" src="https://github.com/user-attachments/assets/700a4a18-cc32-45f9-9726-d48ce9942773" />
+
 
 # Pertemuan 3 - Pemrograman Web
 
 Proyek ini merupakan latihan dasar HTML dan CSS pada mata kuliah Pemrograman Web di Universitas Pelita Bangsa.
 Fokus utama dari tugas ini adalah mempelajari penerapan CSS Internal, CSS Inline, serta melakukan simulasi penggunaan CSS Eksternal dalam satu halaman website.
-
----
-
-## Struktur File
-
-- `lab2_tag_dasar.html` → File utama berisi contoh penggunaan HTML & CSS dasar.
 
 ---
 
