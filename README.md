@@ -37,7 +37,9 @@ Disimulasikan dengan menambahkan block <style> kedua, meskipun pada praktik sebe
 
 5. **Selector CSS**
    ID Selector → #intro
+   
    Class Selector → .button, .btn-primary
+   
    Tag Selector → h1, nav, p
 
 # Input kodingan
