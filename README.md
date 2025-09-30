@@ -18,9 +18,9 @@ terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browse
 Berikan penjelasan dan contohnya! ( <p id="paragraf-1" class="text-paragraf">
 Jawab:
 
-1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
+## 1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
 
-**Hasil Output Program**
+## Hasil Output Program
 <img width="1366" height="768" alt="pemweb1" src="https://github.com/user-attachments/assets/818d050f-6fa9-45e8-96fc-d86d46b52493" />
 
 <img width="1366" height="768" alt="pemweb2" src="https://github.com/user-attachments/assets/0dfe14b5-55a1-41af-92c7-d5e37cbc6cae" />
@@ -31,9 +31,10 @@ Jawab:
 
 <img width="1366" height="768" alt="pemweb6" src="https://github.com/user-attachments/assets/c6e07d85-4f73-465a-825c-f23cb1828ddf" />
 
-2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya!
+## 2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya!
 
-h1 {...} adalah elemen selector yang berlaku untuk semua tag <h1> di dalam dokumen HTML. Jadi, semua heading <h1> akan mendapatkan style yang sama sedangkan #intro h1 {...} adalah ID selector yang lebih spesifik, artinya aturan CSS tersebut hanya berlaku pada elemen <h1> yang berada di dalam elemen dengan id="intro". Dengan kata lain, style hanya diterapkan pada <h1> yang merupakan turunan langsung dari elemen #intro.
+ - h1 {...} adalah elemen selector yang berlaku untuk semua tag h1 di dalam dokumen HTML. Jadi, semua heading h1 akan mendapatkan style yang sama.
+ - sedangkan #intro h1 {...} adalah ID selector yang lebih spesifik, artinya aturan CSS tersebut hanya berlaku pada elemen h1 yang berada di dalam elemen dengan id="intro". Dengan kata lain, style hanya diterapkan pada h1 yang merupakan turunan langsung dari elemen #intro. 
 Contoh:
 ```python
 h1 {
@@ -45,14 +46,15 @@ h1 {
 }
 ```
 
-Jika ada dua <h1>, satu di luar <div id="intro"> dan satu di dalamnya, maka <h1> di luar akan berwarna biru, sedangkan <h1> di dalam #intro akan berwarna merah.
+Jika ada dua h1, satu di luar div id="intro" dan satu di dalamnya, maka h1 di luar akan berwarna biru, sedangkan h1 di dalam #intro akan berwarna merah.
 
-3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+## 3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
 
-Prioritas jika ada Internal, Eksternal, dan Inline CSS pada elemen yang sama CSS memiliki aturan prioritas (specificity). Urutannya:
+Prioritas jika ada Internal, Eksternal, dan Inline CSS pada elemen yang sama CSS memiliki aturan prioritas (specificity). 
+Urutannya:
 
 Inline CSS → prioritas paling tinggi.
-Internal CSS (dalam tag <style> di file HTML).
+Internal CSS (dalam tag style di file HTML).
 Eksternal CSS (file .css terpisah).
 
 Jika ketiganya digunakan pada elemen yang sama, maka Inline CSS akan ditampilkan di browser, karena tingkat prioritasnya lebih tinggi dibanding internal maupun eksternal.
@@ -82,7 +84,7 @@ Internal CSS:
 
 Hasil di browser: teks akan berwarna hijau, karena inline CSS lebih diutamakan.
 
-4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebutterdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! ( <p id="paragraf-1" class="text-paragraf">
+## 4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebutterdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya! ( <p id="paragraf-1" class="text-paragraf">
 
 Dalam aturan CSS, ID memiliki prioritas lebih tinggi daripada Class. Jadi, jika sebuah elemen HTML memiliki id dan class sekaligus, maka style yang berasal dari ID-lah yang akan dipakai browser.
 
